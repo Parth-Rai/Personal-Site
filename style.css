@@ -1,0 +1,38 @@
+.cover{
+    background-color:#F2EFE7;
+}
+#cover{
+    background-color: #48A6A7;
+}
+.flex-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-cont{
+    display:grid;
+    grid-template-columns: 0.25fr 0.65fr;
+    grid-column-gap: 50px;
+    grid-template-rows: 1fr;
+}
+#skills{
+    background-color: #48A6A7;
+    .col{
+        background-color: #F2EFE7;
+    }
+    .row{
+        background-color: #F2EFE7;
+    }
+}
+h2{
+    font-size: 2.5rem;
+}
+#education{
+    background-color: #F2EFE7;
+}
+.flex-educont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
